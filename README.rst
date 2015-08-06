@@ -77,10 +77,11 @@ Under Mac:
 Under Windows:
 
 - Download graphviz from: http://www.graphviz.org/Download_windows.php
+- Add to the `PATH` environment variable the directory where the binaries were installed, by default `C:\Program Files (x86)\Graphviz2.38\bin`
 -
   .. code-block:: winbatch
 
-    pip install ...
+    pip install pydot_ng
 
 Optional: MKL Blas
 ++++++++++++++++++
