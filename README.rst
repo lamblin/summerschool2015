@@ -41,7 +41,7 @@ These additional steps are required for Windows:
 
 - Install a C++ compiler and Python DLL. From a shell:
 
-  .. code-block:: bash
+  .. code-block:: winbatch
 
     conda install mingw libpython
 
@@ -54,19 +54,33 @@ If you do not follow these steps, the `pydotprint` command will raise an excepti
 
 Under Ubuntu/Debian:
 
+.. code-block:: bash
+
   $ sudo apt-get install graphviz
+  $ conda install pydot
 
 Under Fedora, Cent OS, Red Hat Enterprise:
 
+.. code-block:: bash
+
   $ sudo yum install graphviz
+  $ conda install pydot
 
 Under Mac:
 
-  Download graphviz from: http://www.graphviz.org/Download_macos.php
+- Download graphviz from: http://www.graphviz.org/Download_macos.php
+-
+  .. code-block:: bash
+
+    $ conda install pydot
 
 Under Windows:
 
-  Download graphvix from: http://www.graphviz.org/Download_windows.php
+- Download graphviz from: http://www.graphviz.org/Download_windows.php
+-
+  .. code-block:: winbatch
+
+    pip install ...
 
 Optional: MKL Blas
 ++++++++++++++++++
